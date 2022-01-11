@@ -18,7 +18,7 @@ import java.io.IOException;
 
 @Service
 public class UploadService {
-    private final String awsID = System.getenv("AWS_ID");  //going to have to switch to environment variable when implementing
+    private final String awsID = System.getenv("AWS_ID");
     private final String secretKey = System.getenv("AWS_SECRET_KEY");
     private final String region = "us-east-2";
     private final String bucketName = "aziz-project-01";
